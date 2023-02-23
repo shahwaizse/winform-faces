@@ -10,14 +10,14 @@
         /// <summary>
         ///  Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
+        /// <param name="die">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool die)
         {
-            if (disposing && (components != null))
+            if (die && (components != null))
             {
                 components.Dispose();
             }
-            base.Dispose(disposing);
+            base.Dispose(die);
         }
 
         #region Windows Form Designer generated code

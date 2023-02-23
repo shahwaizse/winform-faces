@@ -1,0 +1,1 @@
+dead simple app that updates text in a window once it recognizes a face.

@@ -8,7 +8,7 @@ namespace someshittyname
     public partial class Form1 : Form
     {
         CascadeClassifier haarhaar = new CascadeClassifier(
-                "C:\\Users\\mshah\\source\\repos\\someshittyname\\someshittyname\\haar_face.xml"
+                "path to the cascade file, i'd recommend using a haar if you're using this to detect faces."
                 );
         Mat frame;
         VideoCapture capture;
